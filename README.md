@@ -68,9 +68,9 @@ Completed
 
 ## Project Preview
 
-The image below shows the game in action.
+The image below shows the game.
 
-![Ping Pong Game Preview](pingpong.png)
+![Ping Pong Game Preview](flappy_bird_preview.png)
 
 ## Installation
 
