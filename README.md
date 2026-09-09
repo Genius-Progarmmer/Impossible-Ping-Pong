@@ -2,6 +2,17 @@
 
 A lightweight Ping Pong game developed in Python using the Pygame library. The project focuses on basic game development concepts such as movement, collision detection, scoring, sound effects, and game states.
 
+## Description
+
+This project is a simple Ping Pong game where the player controls a paddle and tries to keep the ball from reaching the bottom of the screen.
+
+The game includes scoring, collision detection, sound effects, randomized background colors, and a game-over system.
+
+## Technologies
+
+* Python
+* Pygame
+
 ## Features
 
 * Paddle controlled with the keyboard
@@ -23,60 +34,78 @@ A lightweight Ping Pong game developed in Python using the Pygame library. The p
 * **Space** — Restart the game after losing
 * **Mouse Click** — Randomize the background color
 
-## Requirements
+## Challenges
 
-Make sure Python 3.x is installed.
+One of the main challenges of this project was implementing collision detection between the ball and paddle while keeping the ball movement consistent.
 
-Install Pygame using:
+Another challenge was creating the game-over and restart system and connecting the different game states together.
+
+## What I Learned
+
+Through this project, I learned how to:
+
+* Create a game using Pygame
+* Handle keyboard and mouse input
+* Detect collisions between objects
+* Create scoring systems
+* Work with game states
+* Add sound effects
+* Use random values in games
+* Manage game assets
+
+## Status
+
+Completed
+
+## Future Improvements
+
+* Add multiple difficulty levels
+* Add an AI opponent
+* Add more sound effects
+* Add a start menu
+* Add improved visual effects
+* Add high-score saving
+
+## Project Preview
+
+The image below shows the game in action.
+
+![Ping Pong Game Preview](pingpong.png)
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Genius-Progarmmer/Impossible-Ping-Pong.git
+```
+
+Move into the project directory:
+
+```bash
+cd Impossible-Ping-Pong
+```
+
+Install Pygame:
 
 ```bash
 pip install pygame
 ```
 
-## Running the Game
+## How to Run
 
-Run the Python file:
+Run the game with:
 
 ```bash
 python ping_pong.py
 ```
 
-Make sure the `sounds_and_pic` folder is located in the same directory as the Python file.
-
-## Assets
-
-The game uses the following assets:
-
-```text
-sounds_and_pic/
-├── Ping-pongeffect.mp3
-├── pingpong.png
-├── tennis_ball.png
-└── border.jpg
-```
-
-## Gameplay
-
-The ball continuously moves around the game area and bounces off the boundaries.
-
-The player controls the paddle using the Left and Right Arrow keys. Successfully hitting the ball increases the score and triggers a sound effect.
-
-Each successful paddle collision also generates a new random RGB value for the game's background.
-
-If the player misses the ball and it reaches the bottom of the game area, the game enters the game-over state. Pressing Space resets the score and launches the ball from a new random position at the top of the screen.
-
-## Technologies Used
-
-**Python**
-Used for the game's logic, controls, scoring, and state management.
-
-**Pygame**
-Used for graphics, input handling, collision detection, audio, and the game loop.
+Make sure the `sounds_and_pic` folder is in the same directory as the Python file.
 
 ## Project Structure
 
 ```text
-Ping-Pong/
+Impossible-Ping-Pong/
 │
 ├── ping_pong.py
 │
@@ -86,3 +115,9 @@ Ping-Pong/
     ├── tennis_ball.png
     └── border.jpg
 ```
+
+## Author
+
+**Genius-Progarmmer**
+
+GitHub: https://github.com/Genius-Progarmmer
